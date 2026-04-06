@@ -1,0 +1,17 @@
+Instruções para desativar o compartilhamento de conteúdo para treinamento do modelo de IA.
+
+* No ChatGPT:
+
+Perfil -> Configurações -> Controlar dados -> Melhorar o modelo para todo mundo -> DESATIVE!
+
+* No Claude:
+
+Perfil → Configurações → Privacidade → Ajudar a melhorar o Claude → DESATIVE!
+
+* Nas contas corporativas (Google Workspace Bussiness e Microsoft Copilot Empresarial, por exemplo), o não-compartilhamento é o padrão.
+
+* Outra alternativa: ligar os modos temporários de chat, o compartilhamento também é desativado.
+
+* Dicas: 
+- na dúvida, verifique a documentação da plataforma sobre privacidade e compartilhamento de dados. 
+- Se não tiver certeza, nunca compartilhe dados pessoais. Principalmente os mais sensíveis.
