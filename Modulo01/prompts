@@ -1,0 +1,53 @@
+Prompt 8 componentes:
+
+Situação (ou Contexto); Papel (ou Persona); Tarefa (ou Objetivo); Formato; Restrições; Critérios; Exemplos; Call to Action (ou CTA).
+
+Exemplo:
+
+<situação>
+Nossa equipe de suporte está sobrecarregada com dúvidas repetitivas sobre prazos de entrega.
+</situação>
+
+<papel>
+Você atua como o analista de triagem sênior desta operação.
+</papel>
+
+<tarefa>
+Classifique a urgência do e-mail do cliente e extraia o número do pedido.
+</tarefa>
+
+<formato>
+Entregue a resposta em formato de tabela.
+</formato>
+
+<restrições>
+* Não invente números de pedido; se não encontrar, escreva "NÃO LOCALIZADO".
+* Mantenha a classificação de urgência estritamente entre: Baixa, Média ou Alta.
+* Abstenha-se de responder ao cliente ou adicionar comentários introdutórios; forneça apenas a tabela.
+</restrições>
+
+<critérios>
+* Acurácia: O número do pedido deve seguir o padrão de 2 letras e 5 números (ex: AB12345).
+* Lógica de Urgência: Use "Alta" apenas para atrasos superiores a 3 dias ou palavras que indiquem frustração extrema/ameaça de cancelamento.
+* Concisa: A coluna de "Motivo" na tabela deve ter no máximo 10 palavras.
+</critérios>
+
+<exemplos>
+Input: "Olá, meu pedido XY98765 era para ontem e nada ainda. Preciso disso urgente!"
+Output:
+| Urgência | Pedido | Motivo |
+| :--- | :--- | :--- |
+| Alta | XY98765 | Atraso relatado e tom de urgência do cliente. |
+
+Input: "Como vejo o prazo do meu pedido? Comprei agora."
+Output:
+| Urgência | Pedido | Motivo |
+| :--- | :--- | :--- |
+| Baixa | NÃO LOCALIZADO | Dúvida informativa sem atraso ou identificação. |
+</exemplos>
+
+<call_to_action>
+Analise o seguinte e-mail recebido e gere a tabela conforme as instruções acima:
+"[INSIRA O TEXTO DO E-MAIL AQUI]"
+</call_to_action>
+
