@@ -12,4 +12,4 @@ Instruções para utilização de JSON para a transformação de imagens:
 
 6) Colar o JSON no prompt; alterar o que se quiser (vimos o caso do cabelo etc.)
 
-7) Escrever abaixo do JSON no prompt: "adapte a imagem em anexo ao JSON acima"
+7) Escrever abaixo do JSON no prompt: "crie uma nova imagem, adaptando a imagem em anexo ao JSON acima"
