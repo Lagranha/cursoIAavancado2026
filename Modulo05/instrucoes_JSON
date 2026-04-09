@@ -1,0 +1,15 @@
+Instruções para utilização de JSON para a transformação de imagens:
+
+1) Anexar na IA a imagem de referência (aquela da qual se quer "copiar" as características: estilo, iluminação etc.);
+
+2) Escrever um prompt como o seguinte: "transforme a imagem em anexo em um JSON".
+
+3) Copiar o JSON do resultado.
+
+4) Começar nova conversa (em outra IA ou na mesma).
+
+5) Anexar a imagem que se quer transformar (na aula utilizamos uma imagem nossa)
+
+6) Colar o JSON no prompt; alterar o que se quiser (vimos o caso do cabelo etc.)
+
+7) Escrever abaixo do JSON no prompt: "adapte a imagem em anexo ao JSON acima"
